@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/download"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Choose A Team"
+         android:layout_gravity="center_horizontal"
+         android:textAlignment="center"
+         android:fontFamily="sans-serif-black"
+         android:textSize="40dp"/>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:width="100dp"
+            android:height="100dp"
+            android:background="@drawable/dc"
+            android:onClick="Squad1"
+            />
+
+    <Button
+        android:background="@drawable/csk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="Squad2"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:background="@drawable/mi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="Squad3"
+        android:height="100dp"
+        android:width="100dp"
+        android:layout_margin="5dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:width="100dp"
+            android:height="100dp"
+            android:background="@drawable/kkr"
+            android:onClick="Squad4" />
+        <Button
+            android:background="@drawable/srh"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="Squad5"
+            android:height="100dp"
+            android:width="100dp"
+            android:layout_margin="5dp"/>
+        <Button
+            android:background="@drawable/kxip"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:onClick="Squad6"
+            android:height="100dp"
+            android:width="100dp"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:width="100dp"
+            android:height="100dp"
+            android:background="@drawable/rr"
+            android:onClick="Squad7" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:width="100dp"
+            android:height="100dp"
+            android:background="@drawable/rcb"
+            android:onClick="Squad8" />
+    </LinearLayout>
+
+
+</LinearLayout>
